@@ -2,6 +2,10 @@
 	box-shadow: 2px 2px 5px white;
 }
 
+#about {
+	background-color: #304c89;
+}
+
 @media screen and (max-width: 746px) {
 	.container {
 		flex-direction: column;
