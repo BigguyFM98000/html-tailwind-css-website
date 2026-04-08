@@ -1,0 +1,18 @@
+.explore-btn {
+	box-shadow: 2px 2px 5px white;
+}
+
+@media screen and (max-width: 746px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.image {
+		width: 100%;
+		height: auto;
+	}
+
+	.biography {
+		font-size: 1.2em;
+	}
+}
