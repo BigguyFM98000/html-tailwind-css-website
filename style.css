@@ -11,8 +11,12 @@
 }
 
 /* Services Page Styles */
+.items {
+	padding: 1em;
+}
+
 .items img {
-	margin: 0 auto;
+	margin: 0.2em auto;
 	border: 1px solid #333;
 	/* padding: 1em; */
 	border-radius: 1em;
