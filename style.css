@@ -10,6 +10,8 @@
 	background-color: #043869;
 }
 
+/* Services Page Styles */
+
 @media screen and (max-width: 746px) {
 	.container {
 		flex-direction: column;
@@ -22,5 +24,25 @@
 
 	.biography {
 		font-size: 1.2em;
+	}
+
+	#about {
+		height: auto;
+	}
+
+	#services {
+		height: auto;
+	}
+
+	.threes-container {
+		flex-direction: column;
+		margin-top: 1em;
+		padding: 2em;
+	}
+
+	.items {
+		width: 100%;
+		height: auto;
+		gap: 1em;
 	}
 }
