@@ -11,6 +11,29 @@
 }
 
 /* Services Page Styles */
+.items img {
+	margin: 0 auto;
+	border: 1px solid #333;
+	/* padding: 1em; */
+	border-radius: 1em;
+	background-color: #fff;
+}
+
+.items h3 {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+}
+
+.items p {
+	color: #333;
+	margin-bottom: 0.5em;
+}
+
+.items a {
+	color: blue;
+}
 
 @media screen and (max-width: 746px) {
 	.container {
