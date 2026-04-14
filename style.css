@@ -76,4 +76,12 @@
 		height: auto;
 		gap: 1em;
 	}
+
+	.product-container {
+		flex-direction: column;
+	}
+
+	#products {
+		height: auto;
+	}
 }
