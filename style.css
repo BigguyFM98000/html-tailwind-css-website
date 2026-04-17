@@ -122,4 +122,18 @@
 	#products {
 		height: auto;
 	}
+
+	.contact-container {
+		flex-direction: column;
+	}
+
+	#contact {
+		height: auto;
+	}
+
+	#myform div,
+	#myform,
+	.social-icons {
+		width: 100%;
+	}
 }
