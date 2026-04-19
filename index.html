@@ -293,7 +293,19 @@
 
 		<script>
 			const year = document.querySelector("#year");
+
 			year.innerText = new Date().getFullYear();
+			document
+				.querySelector("button")
+				.addEventListener("click", function (event) {
+					event.preventDefault();
+					const name = document.querySelector("#name").value;
+					const surname = document.querySelector("#surname").value;
+					const email = document.querySelector("#email").value;
+					const message = document.querySelector("#message").value;
+					alert(JSON.stringify({ name, surname, email, message }));
+					document.querySelector("#myform").reset();
+				});
 		</script>
 	</body>
 </html>

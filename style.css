@@ -67,6 +67,7 @@
 #myform div input,
 #myform div textarea {
 	border-radius: 0.5em;
+	padding: 0.5em;
 }
 
 #myform button {
