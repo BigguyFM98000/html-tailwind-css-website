@@ -252,7 +252,7 @@
 					<button type="submit">Submit</button>
 				</form>
 				<div class="social-icons w-1/2 height-1/2">
-					<h2 class="text-3xl text-center mb-8 p-8">
+					<h2 class="text-3xl text-center mb-8 p-8 text-white">
 						Keep in Touch with Us Through:
 					</h2>
 					<div class="flex flex-row justify-evenly align-center gap-8">
@@ -286,5 +286,14 @@
 				</div>
 			</article>
 		</section>
+		<footer>
+			<h2>Copyright &copy; <span id="year"></span>. All Rights Reserved.</h2>
+			<p>Created by Fhatuwani Raphalalani</p>
+		</footer>
+
+		<script>
+			const year = document.querySelector("#year");
+			year.innerText = new Date().getFullYear();
+		</script>
 	</body>
 </html>
