@@ -1,2 +1,2 @@
 # html-tailwind-css-website
-A practical responsive website built with HTML and Tailwind CSS
+A practical responsive website built with HTML and Tailwind CSS. Here's how to do it: Create a new directory for your project and navigate to it in your terminal. cd my-tailwind-project Initialize your project with npm or yarn. If you don't have npm or yarn installed, make sure to install Node.js, which includes npm. Install Tailwind CSS and its dependencies using npm or yarn.
